@@ -6,7 +6,14 @@ This project demonstrates how to generate consistent characters using the Fluxv1
 git clone https://github.com/ihbkaiser/genai-test
 cd genai-test
 ```
-2. Install the required dependencies:
+2. Install `ai-toolkit` repository:
+```bash
+git clone https://github.com/ostris/ai-toolkit
+cd ai-toolkit
+git submodule update --init --recursive
+cd ..
+```
+3. Install the required dependencies:
 ```pip install -r requirements.txt```
 ### Training
 1. Place the images of your character in the `input_img` directory.
